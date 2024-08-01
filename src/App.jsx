@@ -1,13 +1,21 @@
-import './App.css'
+import React from 'react'
+import UserTable from './components/UserTable'
 
-function App() {
-
-
+const App = () => {
   return (
-    <>
-      <h1> Hello world!</h1>
-    </>
+    <div className='App'>
+      <UserTable/>
+    </div>
   )
 }
 
 export default App
+
+
+
+
+
+
+
+
+
