@@ -83,17 +83,17 @@ const UserTable = () => {
 
           <img src={filter} width={25} alt="filter icon" />
 
+          <select name="country" onChange={handleFilterChange} className="p-2 border rounded">
+            <option value="">Country</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+          </select>
           <select name="gender" onChange={handleFilterChange} className="p-2 border rounded">
-            <option value="">All Genders</option>
+            <option value="">Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
 
-          <select name="country" onChange={handleFilterChange} className="p-2 border rounded">
-            <option value="">All Countries</option>
-            <option value="USA">USA</option>
-            <option value="Canada">Canada</option>
-          </select>
         </div>
       </div>
 
